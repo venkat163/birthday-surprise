@@ -2,7 +2,7 @@
    BIRTHDAY DATE
 ========================================= */
 const birthdayDate =
-    new Date().getTime() - 1000;
+    new Date("November 27, 2026 00:00:00").getTime();
 
 
 /* =========================================
