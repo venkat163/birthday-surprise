@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Birthday Surprise 🎂</title>
+
+    <link rel="stylesheet"
+          href="style.css">
+
+</head>
+
+
+<body>
+
+
+<!-- =========================================
+     COUNTDOWN SCREEN
+========================================= -->
+
+<section id="countdownScreen"
+         class="screen countdown-screen">
+
+    <!-- Floating decorations -->
+
+    <div class="top-decorations">
+       
+    </div>
+
+
+    <h1>
+        Something Special Is Coming... ✨
+    </h1>
+
+
+    <p class="subtitle">
+        Wait for your special surprise 🎁
+    </p>
+
+
+    <!-- COUNTDOWN -->
+
+    <div id="countdown">
+
+        <div class="time-box">
+
+            <span id="days">
+                00
+            </span>
+
+            <small>
+                Days
+            </small>
+
+        </div>
+
+
+        <div class="time-box">
+
+            <span id="hours">
+                00
+            </span>
+
+            <small>
+                Hours
+            </small>
+
+        </div>
+
+
+        <div class="time-box">
+
+            <span id="minutes">
+                00
+            </span>
+
+            <small>
+                Minutes
+            </small>
+
+        </div>
+
+
+        <div class="time-box">
+
+            <span id="seconds">
+                00
+            </span>
+
+            <small>
+                Seconds
+            </small>
+
+        </div>
+
+    </div>
+
+
+    <p class="waiting-message">
+        Your surprise is waiting... 💝
+    </p>
+
+
+</section>
+
+
+
+<!-- =========================================
+     OPEN SURPRISE SCREEN
+========================================= -->
+
+<section id="openScreen"
+         class="screen open-screen hidden">
+
+
+    <div class="gift-animation">
+        🎁
+    </div>
+
+
+    <h1>
+        Your Surprise Is Ready! ✨
+    </h1>
+
+
+    <p>
+        Are you ready to open it?
+    </p>
+
+
+    <button id="openButton">
+        OPEN YOUR SURPRISE 💖
+    </button>
+
+
+</section>
+
+
+
+<!-- =========================================
+     BIRTHDAY SCREEN
+========================================= -->
+
+<section id="birthdayScreen"
+         class="screen birthday-screen hidden">
+
+
+    <!-- Decorations -->
+
+    <div class="birthday-decorations">
+        🎉 🎊 ✨  🎂  ✨ 🎊 🎉
+    </div>
+
+
+    <!-- Main heading -->
+
+    <h1 class="birthday-title">
+        HAPPY BIRTHDAY SHAFIYA🎂
+    </h1>
+
+
+    <!-- =====================================
+         PHOTO SLIDESHOW
+    ====================================== -->
+
+    <div class="photo-container">
+
+        <img id="friendPhoto"
+     src="images/friend1.jpeg"
+     alt="Birthday Friend">
+
+    </div>
+
+
+    <!-- Photo indicator -->
+
+    <div class="photo-dots">
+
+        <span class="dot active"
+              data-index="0">
+        </span>
+
+        <span class="dot"
+              data-index="1">
+        </span>
+
+        <span class="dot"
+              data-index="2">
+        </span>
+
+    </div>
+
+
+    <!-- Friend name -->
+
+    <h2 class="friend-name">
+        Happy Birthday, My Dear Friend! 💖
+    </h2>
+
+
+    <!-- Birthday message -->
+
+    <p class="birthday-message">
+
+        Wishing you a day filled with happiness,
+        laughter, beautiful memories and lots of love. ✨
+
+    </p>
+
+
+    <!-- Bottom decorations -->
+
+    
+
+
+    <!-- Final button -->
+
+    <button id="finalButton">
+        ONE MORE SURPRISE 💌
+    </button>
+
+
+</section>
+
+
+
+<!-- =========================================
+     FINAL MESSAGE SCREEN
+========================================= -->
+
+<section id="finalScreen"
+         class="screen final-screen hidden">
+
+
+    <div class="letter">
+
+
+        <div class="letter-decoration">
+            💌
+        </div>
+
+
+        <h1>
+            A Little Message For You
+            💖
+        </h1>
+
+
+        <p>
+
+            May this new year of your life
+            bring you countless beautiful moments,
+            happiness, success and unforgettable
+            memories.
+
+        </p>
+
+
+        <p>
+
+            Keep smiling, keep shining and always
+            stay the amazing person you are. ❤️
+
+        </p>
+
+
+        <h2>
+
+            Once Again...
+            HAPPY BIRTHDAY!
+            🎂🎉
+
+        </h2>
+
+
+        <div class="final-hearts">
+            💖 ✨ 💕 ✨ 💖
+        </div>
+
+
+    </div>
+
+
+</section>
+
+
+
+<!-- JavaScript -->
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
